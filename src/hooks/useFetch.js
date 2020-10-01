@@ -47,6 +47,12 @@ export const useFetch = (url) => {
             // }
             
             
+        }).catch( () => {
+            setstate({
+                loading: false,
+                error: 'No se pudo cargar la info.',
+                data: null
+            })
         })
     }, [url]);
 
