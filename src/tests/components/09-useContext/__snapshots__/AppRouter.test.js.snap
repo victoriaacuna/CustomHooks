@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el App Router should match snapshot 1`] = `
+Array [
+  <div>
+    <ul>
+      <li>
+        <a
+          className="nav-item nav-link"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          className="nav-item nav-link"
+          href="/about"
+          onClick={[Function]}
+        >
+          About
+        </a>
+      </li>
+      <li>
+        <a
+          className="nav-item nav-link"
+          href="/login"
+          onClick={[Function]}
+        >
+          Login
+        </a>
+      </li>
+    </ul>
+  </div>,
+  <div>
+    <h1>
+      Home Screen
+    </h1>
+    <hr />
+    <pre>
+      {
+   "id": 1,
+   "name": "Victoria"
+}
+    </pre>
+  </div>,
+]
+`;

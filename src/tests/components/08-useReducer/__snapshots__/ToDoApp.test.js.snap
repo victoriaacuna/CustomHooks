@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en ToDoAdd should match snapshot 1`] = `
+<div>
+  <h1>
+    ToDo App: (
+    0
+    )
+  </h1>
+  <hr />
+  <div>
+    <ToDoAdd
+      handleAddToDo={[Function]}
+    />
+  </div>
+  <ToDoList
+    handleDelete={[Function]}
+    handleToggle={[Function]}
+    toDos={Array []}
+  />
+</div>
+`;
